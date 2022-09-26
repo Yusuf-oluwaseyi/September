@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* body{
+
+} */
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    color: #000;
+}
+.logo:hover {
+    color: #000;
+}
+.nav-link {
+    color: #000;
+}
+.nav-link:hover {
+    color: #000;
+}
+.nav-item {
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 30px;
+    color: #000000;
+    transition: background-color 1s ease-in-out; 
+}
+.nav-item:first-child:hover {
+    background-color: salmon;
+}
+.nav-item:nth-child(2):hover{
+    background-color: red;
+}
+.nav-item:nth-child(3):hover{
+    background-color: purple;
+}
+.nav-item:nth-child(4):hover {
+    background-color: aqua;
+}
+.nav-item:nth-child(5):hover {
+    background-color: yellow;
+}
+.normal {
+    font-size: 20px;
+    margin-left: 30px;
+    background-color: #000;
+    color: #fff;
+    height: 60px;
+    width: 200px;
+}
+.normal:hover {
+    color: #fff;
+}
+
+/* main */
+#hero {
+    padding-top: 100px;
+}
+#hero h2 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+#hero p {
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+#hero button {
+    margin-left: 0px;
+    height: 60px;
+    width: 325px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+#hero .add p {
+    font-weight: 600;
+}
+#hero .add span {
+    display: block;
+    font-weight: 500;
+}
+#hero .blank {
+    background-color: #000;
+    width: 150px;
+    border-radius: 80px;
+    height: 150px;
+    margin-left: 180px;
+    transition: background 1s ease-in, transform 2s ease-in;
+}
+#hero .blank:hover {
+    background: linear-gradient(0.1turn, #3f87a6, #ebf8e1, #f69d3c);
+    transform: rotate(360deg); 
+}
+#hero .middle {
+    background-color: #000;
+    width: 150px;
+    border-radius: 80px;
+    height: 150px;
+    margin-left: 60px;
+    transition: background 1s ease-in, transform 2s ease-in;
+}
+#hero .middle:hover {
+    background: linear-gradient(0.1turn, #3f87a6, #ebf8e1, #f69d3c);
+    transform: rotate(360deg);
+}
+#hero .hero-img {
+    height: 150px;
+}
+#hero .hero-img img{
+    width: 160px;
+    border-top-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+    height: 100%;
+}
+#hero .photo {
+    margin-bottom: 30px;
+}
+
+/* Media query Tablet */
+@media (max-width: 810px) {
+    .nav-item {
+        padding-left: 0;
+    }
+    #hero .blank {
+        margin-left: 0;
+    }
+    #hero .middle {
+        margin-left: 25px;
+    }
+
+
+}
+
+
+/* Media query Mobile */
+@media (max-width: 480px) {
+    #hero .mobile {
+        display: none;
+    }
+    .normal {
+        margin-left: 0;
+    }
+}
